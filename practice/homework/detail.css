@@ -1,0 +1,78 @@
+a {
+	text-decoration: none;
+}
+tr:nth-child(odd) {
+	background-color: #fbfbfb;
+}
+tr:nth-child(even) {
+	background-color: #efefef;
+}
+th,
+td {
+	border: 1px solid black;
+}
+hr {
+	width: 66vw;
+	height: 1px;
+	background-color: gainsboro;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.html-table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	box-shadow: inset 0 0 8px #c6c3c3;
+	border-radius: 12px;
+}
+.html-css--body--color {
+	background-color: #f2f2f2;
+}
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 72vw;
+	background-color: white;
+	border: 1px solid gray;
+}
+.box {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 34vw;
+	border: 1px solid black;
+}
+.h1-font {
+	text-align: center;
+	color: #000000;
+	font-weight: 800;
+	font-size: 52px;
+}
+.h2-font {
+	text-align: center;
+	color: aqua;
+	font-weight: 600;
+	font-size: 34px;
+}
+.html--css--link {
+	text-align: center;
+	width: 16vw;
+}
+.html--link {
+	display: inline;
+	color: #e91b1b;
+	font-weight: 600;
+	font-size: 32px;
+	margin-right: 20px;
+}
+.css--link {
+	display: inline;
+	color: #4343cd;
+	font-weight: 600;
+	font-size: 32px;
+	margin-left: 20px;
+}

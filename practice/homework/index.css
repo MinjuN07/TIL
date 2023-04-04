@@ -1,0 +1,20 @@
+body {
+	background-image: url(../../picture/bonobono.jpg_large);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+.h1-font {
+	text-align: center;
+	color: #000000;
+	font-weight: 800;
+	font-size: 52px;
+}
+.h2-font {
+	text-align: center;
+	color: #00ffff;
+	font-weight: 600;
+	font-size: 34px;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="detail.css" rel="stylesheet" />
+		<link href="../../picture/idontknow-icon.ico" rel="icon" />
+		<title>HTML and CSS</title>
+	</head>
+	<body class="html-css--body--color">
+		<div class="wrap">
+			<div class="h1-font">HTML and CSS</div>
+			<div class="html--css--link"><a href="#go-html" class="html--link">html</a><a href="#go-css" class="css--link">css</a></div>
+			<hr />
+			<div class="box" id="go-html">
+				<div>
+					<table class="html-table">
+						<tr>
+							<th>&lt;div&gt; &lt;/div&gt;</th>
+							<td>특별한 기능은 없지만 CSS와 함께 쓰여 웹페이지를 레이아웃 구성 사용,display:block</td>
+						</tr>
+						<tr>
+							<th>&lt;span&gt; &lt;/span&gt;</th>
+							<td>특별한 기능은 없지만 CSS와 함께 쓰여 웹페이지를 레이아웃 구성 사용,display:inline</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="text" /&gt;</th>
+							<td>한줄의 텍스트 필드,새줄문자는 자동 제거</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="radio" /&gt;</th>
+							<td>같은 name 값을 가진 여러개의 선택 중 하나 값 선택</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="checkbox" /&gt;</th>
+							<td>단일 값을 선택,선택 해제할 수 있는 체크박스</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="date" /&gt;</th>
+							<td>날짜(연월일)를 지정 할 수있는 컨트롤</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="password" /&gt;</th>
+							<td>값이 가려진 텍스트 필드</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="button" /&gt;</th>
+							<td>기본 행동을 가지지 않으며 value을 레이블로 사용하는 푸시 버튼</td>
+						</tr>
+						<tr>
+							<th>&lt;input type="file" /&gt;</th>
+							<td>파일을 지정할 수 있는 컨트롤,accept 특성을 사용하면 허용하는 파일 유형 설정</td>
+						</tr>
+						<tr>
+							<th>&lt;button&gt; &lt;button/&gt</th>
+							<td>
+								<button type="button" onclick="alert('input type=button 과는 다르게 요소 안에 텍스트나 이미지 같은 콘텐츠 삽입 가능')">
+									민준멍청이
+								</button>
+							</td>
+						</tr>
+						<tr>
+							<th>&lt;select&gt; &lt;/selcet&gt;</th>
+							<td>option 메뉴를 제공하는 드롭다운 리스트를 정의 할때 사용</td>
+						</tr>
+						<tr>
+							<th>&lt;option&gt; &lt;/option&gt;</th>
+							<td>select 안의 option은 드롭다운 리스트에서 사용되는 각각의 옵션을 정의</td>
+						</tr>
+						<tr>
+							<th>&lt;table&gt; &lt;/table&gt;</th>
+							<td>표를 만드는 태그,&lt;tr&gt;,&lt;th&gt;,&lt;td&gt; 등과 함께 작성</td>
+						</tr>
+						<tr>
+							<th>&lt;table&gt; &lt;/table&gt;</th>
+							<td>표를 만드는 태그,&lt;tr&gt;,&lt;th&gt;,&lt;td&gt; 등과 함께 작성</td>
+						</tr>
+						<tr>
+							<th>&lt;tr&gt;</th>
+							<td>표의 행을 만듬</td>
+						</tr>
+						<tr>
+							<th>&lt;lable&gt; &lt;/lable&gt;</th>
+							<td>&lt;lable&gt;은 UI 요소의 라벨을 정의 할때 사용</td>
+						</tr>
+						<tr>
+							<th>&lt;lable for=""&gt; &lt;/lable&gt;</th>
+							<td>&lt;lable&gt;은 for속성을 사용하여 다른 요소와 결합 가능,이때 &lt;lable&gt;속성값은 결합할려는 요소의 id속성값이 동일해야함</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<hr />
+			<div class="box" id="go-css">
+				<table class="html-table">
+					<tr>
+						<th colspan="2">박스 스타일</th>
+					</tr>
+					<tr>
+						<th>width:</th>
+						<td>가로 길이</td>
+					</tr>
+					<tr>
+						<th>height:</th>
+						<td>세로 길이</td>
+					</tr>
+					<tr>
+						<th>background-color:</th>
+						<td>백그라운드 색</td>
+					</tr>
+					<tr>
+						<th>border:</th>
+						<td>테두리 설정</td>
+					</tr>
+					<tr>
+						<th>border-radius:</th>
+						<td>테두리 경계의 꼭짓점을 둥글게 만듬</td>
+					</tr>
+					<tr>
+						<th colspan="2">정렬</th>
+					</tr>
+					<tr>
+						<th>displsy: flex;</th>
+						<td>수직으로 쌓이듯이 정렬</td>
+					</tr>
+					<tr>
+						<th>justify-content: center;</th>
+						<td>가로축-중심축</td>
+					</tr>
+					<tr>
+						<th>align-items: center;</th>
+						<td>안에 것들 중앙 배치 세로축-교차축</td>
+					</tr>
+					<tr>
+						<th>flex-direction: column;</th>
+						<td>안에 것들이 세로로 만들어짐</td>
+					</tr>
+					<tr>
+						<th>margin-?: auto;</th>
+						<td>?까지 margin 을 없앰</td>
+					</tr>
+					<tr>
+						<th colspan="2">텍스트</th>
+					</tr>
+					<tr>
+						<th>font-size:</th>
+						<td>폰트의 크기</td>
+					</tr>
+					<tr>
+						<th>font-weight:</th>
+						<td>폰트의 가중치나 굵기</td>
+					</tr>
+					<tr>
+						<th>font-family:</th>
+						<td>글꼴 설정</td>
+					</tr>
+					<tr>
+						<th>font-face:</th>
+						<td>웹페이지의 온라인 폰트를 사용 가능</td>
+					</tr>
+					<tr>
+						<th>font-align:</th>
+						<td>블록 요소나 표의 칸 상자의 가로 정렬을 설정</td>
+					</tr>
+					<tr>
+						<th>color:</th>
+						<td>글자 색</td>
+					</tr>
+					<tr>
+						<th>white-space: pre-wrap;</th>
+						<td>띄어쓰기</td>
+					</tr>
+					<tr>
+						<th>outline: none;</th>
+						<td>아웃라인을 없앰</td>
+					</tr>
+					<tr>
+						<th>text-decoration:</th>
+						<td>텍스트에 장식용 선을 추가,선을 없앨때 쓰기도 함</td>
+					</tr>
+					<tr>
+						<th colspan="2">간격</th>
+					</tr>
+					<tr>
+						<th>gap:</th>
+						<td>행과 열 사이의 간격 설정</td>
+					</tr>
+					<tr>
+						<th>margin:</th>
+						<td>요소의 네 방향 바깥 여백 영역을 설정</td>
+					</tr>
+					<tr>
+						<th>padding:</th>
+						<td>요소의 네 방향 안쪽 여백 영역을 설정</td>
+					</tr>
+					<tr>
+						<th colspan="2">단위</th>
+					</tr>
+					<tr>
+						<th>vw</th>
+						<td>viewport 너비의 1%</td>
+					</tr>
+					<tr>
+						<th>vh</th>
+						<td>viewport 높이의 1%</td>
+					</tr>
+					<tr>
+						<th>rem</th>
+						<td>루트 요소의 글꼴 크기</td>
+					</tr>
+					<tr>
+						<th>em</th>
+						<td>요소의 글꼴 크기</td>
+					</tr>
+					<tr>
+						<th>px</th>
+						<td>픽셀 단위</td>
+					</tr>
+					<tr>
+						<th>%</th>
+						<td>%단위/td></td>
+					</tr>
+					<tr>
+						<th>fit-content</th>
+						<td>양의 따라 부모요소가 결정됨</td>
+					</tr>
+					<tr>
+						<th colspan="2">기타</th>
+					</tr>
+					<tr>
+						<th>cursor: pointer;</th>
+						<td>요소 위의 위치하는 마우스 커서 모양 변경</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
