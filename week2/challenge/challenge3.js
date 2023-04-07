@@ -4,15 +4,14 @@ let cal = {
 	pl: 0,
 	sum: 0,
 }
-function prompt__calculate() {
-	cal.num1 = prompt('숫자를 입력하세요')
+function PromptCalculate() {
+	cal.num1 = parseInt(prompt('숫자를 입력하세요'))
 	cal.pl = prompt('부호를 입력하세요')
-	cal.num2 = prompt('숫자를 입력하세요')
-	cal.num1 = parseInt(cal.num1)
-	cal.num2 = parseInt(cal.num2)
+	cal.num2 = parseInt(prompt('숫자를 입력하세요'))
+	return cal.pl, cal.num1, cal.num2
 }
 
-function alert__calculate() {
+function AlertCalculate() {
 	if (cal.pl == '+') {
 		cal.sum = cal.num1 + cal.num2
 		alert(cal.num1 + ' + ' + cal.num2 + '는 ' + cal.sum + '입니다.')
@@ -35,5 +34,5 @@ function alert__calculate() {
 	}
 }
 
-prompt__calculate()
-alert__calculate()
+PromptCalculate()
+AlertCalculate()
