@@ -1,6 +1,5 @@
 //Double Exclamation Marks Operator(느낌표2개 연산자) 사용 못함ㅠㅠ
-let yourage = prompt('나이를 숫자로 입력하세요.')
-yourage = parseInt(yourage)
+let yourage = parseInt(prompt('나이를 숫자로 입력하세요.'))
 if (!yourage) alert('나이가 글자로 입력되거나 입력되지 않았습니다.')
 
 //const age = [7, 14, 19, 31, 65, 100]
